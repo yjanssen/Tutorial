@@ -1,0 +1,29 @@
+<edmx:Edmx
+    xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" Version="1.0">
+    <edmx:DataServices
+        xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" m:DataServiceVersion="2.0">
+        <Schema
+            xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices"
+            xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+            xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="system-local.private.LETZ_AND_ME.LET_AND_ME">
+            <EntityType Name="AIR_QUALITYType">
+                <Key>
+                    <PropertyRef Name="NORTH"/>
+                </Key>
+                <Property Name="NORTH" Type="Edm.String" Nullable="false" MaxLength="5"/>
+                <Property Name="SOUTH" Type="Edm.String" Nullable="false" MaxLength="5"/>
+                <Property Name="LEGEND" Type="Edm.String" MaxLength="30"/>
+                <Property Name="DESCRIPTION" Type="Edm.String" MaxLength="30"/>
+                <Property Name="VALUE" Type="Edm.String" MaxLength="30"/>
+                <Property Name="COLOR" Type="Edm.String" Nullable="false" MaxLength="5"/>
+                <Property Name="ICON" Type="Edm.String" MaxLength="30"/>
+                <Property Name="LINK" Type="Edm.String" MaxLength="30"/>
+                <Property Name="START_VALIDITY_DATE" Type="Edm.String" Nullable="false" MaxLength="19"/>
+                <Property Name="END_VALIDITY_DATE" Type="Edm.String" Nullable="false" MaxLength="19"/>
+            </EntityType>
+            <EntityContainer Name="LET_AND_ME" m:IsDefaultEntityContainer="true">
+                <EntitySet Name="AIR_QUALITY" EntityType="system-local.private.LETZ_AND_ME.LET_AND_ME.AIR_QUALITYType"/>
+            </EntityContainer>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

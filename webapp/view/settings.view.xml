@@ -1,0 +1,40 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="testhanatesthana.controller.settings"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Configuration" showNavButton="true" navButtonPress="onNavBack">
+				<content>
+					<List headerText="Sélectionnez les alertes que vous souhaitez recevoir">
+						<InputListItem label="Alertes Pollution">
+							<Switch state="true" change="onSettingChange1" id="Switch1"/>
+						</InputListItem>
+						<InputListItem label="Alertes Emploi">
+							<Switch state="true" change="onSettingChange2" id="Switch2"/>
+						</InputListItem>
+						<InputListItem label="Alertes Allergie">
+							<Switch state="true" change="onSettingChange3" id="Switch3"/>
+						</InputListItem>
+						<InputListItem label="Alertes Enlevement">
+							
+						</InputListItem>
+						<InputListItem label="Alertes Catastrophes">
+							
+						</InputListItem>
+						<InputListItem label="Alertes Météo">
+							<Switch state="true" change="onSettingChange6" id="Switch6"/>
+						</InputListItem>
+						<InputListItem label="Alertes Avis Citoyen">
+							<Switch state="true" change="onSettingChange7" id="Switch7"/>
+						</InputListItem>
+						<InputListItem label="Alertes Evénements">
+							<Switch state="true" change="onSettingChange8" id="Switch8"/>
+						</InputListItem>
+							<InputListItem label="Alertes Traffic/Grèves">
+							<Switch state="true" change="onSettingChange9" id="Switch9"/>
+						</InputListItem>
+					</List>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,19 @@
+<mvc:View controllerName="testhanatesthana.controller.JavaSc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:l="sap.ui.layout" xmlns:core="sap.ui.core" displayBlock="true" xmlns="sap.m">
+	<App id="app">
+		<pages>
+			<Page title="TITRE 2}" enableScrolling="false">
+				<headerContent>
+					<Button text="Signaler" press="onToSendAlert"/>
+					<Button text="Configuration" press="onToSettings"/>
+					<Button text="Retour" press="onToReturn"/>
+				</headerContent>
+				<content>
+					<TileContainer id="container" tileDelete="handleTileDelete" tiles="{/TileCollection}">
+						<StandardTile icon="{icon}" type="{type}" number="{number}" numberUnit="{numberUnit}" title="{title}" info="{info}" infoState="{infoState}"/>
+					</TileContainer>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

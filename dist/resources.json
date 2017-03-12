@@ -1,0 +1,156 @@
+{
+    "resources": [
+        {
+            "name": "extended_runnable_file.html"
+        },
+        {
+            "name": "images/missing.png"
+        },
+        {
+            "name": "images/nucleaire.jpeg"
+        },
+        {
+            "name": "images/biohazard.png"
+        },
+        {
+            "name": "images/Alerte_enlevement.png"
+        },
+        {
+            "name": "images/logo.png"
+        },
+        {
+            "name": "images/kidnapping.jpg"
+        },
+        {
+            "name": "images/drapeau-luxembourg-roude-leiw.jpg"
+        },
+        {
+            "name": "images/autocollant-luxembourg.jpg"
+        },
+        {
+            "name": "images/LOGO.png"
+        },
+        {
+            "name": "images/ecran.jpg"
+        },
+        {
+            "name": "localService/LET_AND_ME.xsodata/metadata.xml"
+        },
+        {
+            "name": "localService/metadata.xml"
+        },
+        {
+            "name": "view/kidnappingSend.view.xml"
+        },
+        {
+            "name": "view/firstConnection.view.xml"
+        },
+        {
+            "name": "view/fragment_enlevement.view.xml"
+        },
+        {
+            "name": "view/return.view.xml"
+        },
+        {
+            "name": "view/settings.view.xml"
+        },
+        {
+            "name": "view/pollutionSend.view.xml"
+        },
+        {
+            "name": "view/JavaSc.view.xml"
+        },
+        {
+            "name": "view/sendalerts.view.xml"
+        },
+        {
+            "name": "view/View1.view.xml"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "controller/kidnappingSend.controller.js"
+        },
+        {
+            "name": "controller/fragment_enlevement.controller.js"
+        },
+        {
+            "name": "controller/return.controller.js"
+        },
+        {
+            "name": "controller/View1.controller.js"
+        },
+        {
+            "name": "controller/firstConnection.controller.js"
+        },
+        {
+            "name": "controller/settings.controller.js"
+        },
+        {
+            "name": "controller/JavaSc.controller.js"
+        },
+        {
+            "name": "controller/Formatter.js"
+        },
+        {
+            "name": "controller/pollutionSend.controlleur.js"
+        },
+        {
+            "name": "controller/Grid.controller.js"
+        },
+        {
+            "name": "controller/sendalerts.controller.js"
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "model/airquality.json"
+        },
+        {
+            "name": "model/airqualityTRAPOL.json"
+        },
+        {
+            "name": "model/airqualityEMP.json"
+        },
+        {
+            "name": "model/airqualityPOL.json"
+        },
+        {
+            "name": "model/Return.json"
+        },
+        {
+            "name": "model/airqualityPOLEMP.json"
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "model/airqualityTRA.json"
+        },
+        {
+            "name": "model/airqualityNON.json"
+        },
+        {
+            "name": "model/airqualityEMPTRA.json"
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "neo-app.json"
+        }
+    ]
+}

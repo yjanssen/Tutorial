@@ -1,0 +1,39 @@
+{
+	"TileCollection": [{
+		"icon": "sap-icon://hint",
+		"type": "Monitor",
+		"number": 385,
+		"numberUnit": "Points",
+		"title": "Intermédiaire",
+		"info": "Niveau gagné",
+		"infoState": "None"
+	}, {
+		"icon": "sap-icon://car-rental",
+		"number": "",
+		"numberUnit": "",
+		"title": "l'avenue Diederich sera barrée",
+		"info": "Jusqu'au 28",
+		"infoState": "Warning"
+	}, {
+		"icon": "images/missing.png",
+		"number": "",
+		"numberUnit": "",
+		"title": "Un bébé de 4 mois a été enlevé",
+		"info": "ENLEVEMENT",
+		"infoState": "Error"
+	}, {
+		"icon": "sap-icon://detail-view",
+		"number": "",
+		"numberUnit": "",
+		"title": "Défaillance du réacteur nucléaire",
+		"info": "Evacuation",
+		"infoState": "Error"
+	}, {
+		"icon": "",
+		"number": 85,
+		"numberUnit": "% Corr.",
+		"title": "Recherche développeur HCP",
+		"info": "Urgent",
+		"infoState": "Warning"
+	}]
+}

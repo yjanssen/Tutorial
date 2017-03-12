@@ -1,0 +1,86 @@
+<mvc:View  xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="testhanatesthana.controller.sendalerts"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page
+		title="Signaler"
+		showNavButton="false"
+		navButtonPress="">
+		<headerContent>
+			<Button icon="sap-icon://sys-cancel" press="onToPage1"/>
+		</headerContent>
+		<content>
+			<Button 
+					icon="sap-icon://jam"
+					type="None"
+					text="Alertes Pollution"
+					width="100%"
+					class="sapUiSmallMarginBottom"
+					press="handleInfoMessageBoxPress">
+		    </Button>
+			<Button 
+					icon="sap-icon://group"
+					type="None"
+					text="Alertes Emploi"
+					class="sapUiSmallMarginBottom"
+					press="handleInfoMessageBoxPress"
+					width="100%">
+		    </Button>
+		    <Button 
+					icon="sap-icon://nurse"
+					type="None"
+					text="Alertes Allergie"
+					class="sapUiSmallMarginBottom"
+					press="handleInfoMessageBoxPress"
+					width="100%"
+					ariaDescribedBy="rejectButtonDescription genericButtonDescription">
+		    </Button>
+		    <Button 
+					icon="images/missing.png"
+					type="None"
+					text="Alerte Enlèvement"
+					class="sapUiSmallMarginBottom"
+					press="handleInfoMessageBoxPress"
+					width="100%">
+		    </Button>
+		    <Button 
+					icon="sap-icon://e-care"
+					type="None"
+					text="Alertes Catastrophes"
+					class="sapUiSmallMarginBottom"
+					press="handleInfoMessageBoxPress"
+					width="100%">
+		    </Button>
+		    <Button 
+					icon="sap-icon://temperature"
+					type="None"
+					text="Alertes Météo"
+					class="sapUiSmallMarginBottom"
+					press="handleInfoMessageBoxPress"
+					width="100%">
+		    </Button>
+		    <Button 
+					icon="sap-icon://email-read"
+					type="None"
+					text="Alertes Avis Citoyen"
+					class="sapUiSmallMarginBottom"
+					press="handleInfoMessageBoxPress"
+					width="100%">
+		    </Button>
+			<Button 
+					icon="sap-icon://sound-loud"
+					type="None"
+					text="Alertes Evénements"
+					class="sapUiSmallMarginBottom"
+					press="handleInfoMessageBoxPress"
+					width="100%">
+		    </Button>
+		    <Button 
+					icon="sap-icon://car-rental"
+					type="None"
+					text="Alertes Traffic/Grèves"
+					class="sapUiSmallMarginBottom"
+					press="handleInfoMessageBoxPress"
+					width="100%">
+		    </Button>
+		</content>
+	</Page>
+</mvc:View>

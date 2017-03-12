@@ -1,0 +1,26 @@
+{
+	"TileCollection": [{
+		"icon": "sap-icon://hint",
+		"type": "Monitor",
+		"number": 385,
+		"numberUnit": "Points",
+		"title": "Intermédiaire",
+		"info": "Niveau gagné",
+		"infoState": "None"
+	}, {
+		"icon": "images/missing.png",
+		"type": "Create",
+		"number": "",
+		"numberUnit": "",
+		"title": "Un bébé de 4 mois a été enlevé",
+		"info": "ENLEVEMENT",
+		"infoState": "Error"
+	}, {
+		"icon": "images/biohazard.png",
+		"number": "",
+		"numberUnit": "",
+		"title": "Défaillance du réacteur nucléaire",
+		"info": "Evacuation",
+		"infoState": "Error"
+	}]
+}

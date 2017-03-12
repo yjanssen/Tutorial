@@ -1,0 +1,13 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="testhanatesthana.controller.firstConnection" xmlns:html="http://www.w3.org/1999/xhtml">
+	<FlexBox height="50%" alignItems="Center" justifyContent="Center">
+		<items>
+			<Image src="images/LOGO.png" width="300px" align="center"></Image>
+		</items>
+	</FlexBox>
+	<FlexBox height="50%" alignItems="Center" justifyContent="Center">
+		<items>
+			<Button text="Me connecter" press="onToPage1"/>
+		</items>
+	</FlexBox>
+</mvc:View>

@@ -1,0 +1,16 @@
+<mvc:View xmlns:core="sap.ui.core" 
+xmlns:l="sap.ui.layout"
+xmlns:mvc="sap.ui.core.mvc" 
+xmlns="sap.m" 
+controllerName="testhanatesthana.controller.return"
+xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Analyse retours clients" showNavButton="true" navButtonPress="onNavBack">
+				<content>
+                <Image src="images/ecran.jpg"></Image>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

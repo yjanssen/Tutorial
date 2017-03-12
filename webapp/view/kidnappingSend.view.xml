@@ -1,0 +1,20 @@
+<mvc:View
+	controllerName="testhanatesthana.controller.kidnappingSend"
+	xmlns:form="sap.ui.layout.form"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	<form:SimpleForm editable="true">
+		<Label text="Type here"/>
+		<TextArea id="TypeHere"
+			value="{/InputValue}"
+			valueLiveUpdate="{/ValueLiveUpdate}"
+			liveChange="handleLiveChange"
+		/>
+		<Label text="input.getValue()"/>
+		<Text id="getValue" text=" "/>
+		<Label text="model.getProperty()"/>
+		<Text id="getProperty"
+			text="{/InputValue}"
+		/>
+	</form:SimpleForm>
+</mvc:View>

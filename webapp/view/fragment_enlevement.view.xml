@@ -1,0 +1,13 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="testhanatesthana.controller.fragment_enlevement" xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Title">
+				<content>
+					align=center
+					<Image src="images/fragement_enlevement.jpg"></Image>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

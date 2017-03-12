@@ -1,0 +1,185 @@
+{
+	"_version": "1.5.0",
+	"sap.app": {
+		"id": "testhanatesthana",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"sourceTemplate": {
+			"id": "servicecatalog.connectivityComponent",
+			"version": "0.0.0"
+		},
+		"dataSources": {
+			"LET_AND_ME.xsodata": {
+				"uri": "/Hana/system-local/private/LETZ_AND_ME/LET_AND_ME.xsodata/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/LET_AND_ME.xsodata/metadata.xml"
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_belize"
+		]
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "testhanatesthana.view.View1",
+			"type": "XML"
+		},
+		"dependencies": {
+			"minUI5Version": "1.30.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.ui.layout": {},
+				"sap.f": {},
+				"sap.ushell": {},
+				"sap.collaboration": {},
+				"sap.ui.comp": {},
+				"sap.uxap": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "testhanatesthana.i18n.i18n"
+				}
+			},
+			"": {
+				"type": "sap.ui.model.odata.v2.ODataModel",
+				"settings": {
+					"defaultOperationMode": "Server",
+					"defaultBindingMode": "OneTime",
+					"defaultCountMode": "Request"
+				},
+				"dataSource": "LET_AND_ME.xsodata",
+				"preload": true
+			}
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"targetsClass": "sap.m.routing.Targets",
+				"viewPath": "testhanatesthana.view",
+				"controlId": "app",
+				"controlAggregation": "pages",
+				"viewType": "XML"
+			},
+			"targets": {
+				"page1": {
+					"viewName": "View1",
+					"viewLevel": 1
+				},
+				"page2": {
+					"viewName": "sendalerts",
+					"viewLevel": 1
+				},
+				"page3": {
+					"viewName": "firstConnection",
+					"viewLevel": 1
+				},
+				"page4": {
+					"viewName": "settings",
+					"viewLevel": 1
+				},
+				"page5": {
+					"viewName": "return",
+					"viewLevel": 1
+				},
+				"page6": {
+					"viewName": "JavaSc",
+					"viewLevel": 1
+				},
+				"page7": {
+					"viewName": "kidnappingSend",
+					"viewLevel": 1
+				},
+				"page8": {
+					"viewName": "pollutionSend",
+					"viewLevel": 2
+				}
+			},
+			"routes": [
+				{
+					"name": "page1",
+					"pattern": "",
+					"target": "page1"
+				},
+				{
+					"name": "page2",
+					"pattern": "Page2",
+					"target": "page2"
+				},
+				{
+					"name": "page3",
+					"pattern": "Page3",
+					"target": "page3"
+				},
+				{
+					"name": "page4",
+					"pattern": "Page4",
+					"target": "page4"
+				},
+				{
+					"name": "page5",
+					"pattern": "Page5",
+					"target": "page5"
+				},
+				{
+					"name": "page6",
+					"pattern": "Page6",
+					"target": "page6"
+				},
+				{
+					"name": "page7",
+					"pattern": "Page7",
+					"target": "page7"
+				},
+				{
+					"name": "page8",
+					"pattern": "Page8",
+					"target": "page8"
+				}
+			]
+		}
+	},
+	"sap.platform.hcp": {
+		"uri": "webapp",
+		"_version": "1.1.0"
+	}
+}
